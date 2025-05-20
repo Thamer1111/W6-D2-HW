@@ -1,14 +1,15 @@
 function Zonelst(el) {
     return (
         <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class=" card d-flex justify-content-center align-items-center my-3" style={{
+            <div class=" card m-5 w-100 h-100 " style={{
                 backgroundImage: `url(${el.background})`,
                 backgroundSize: "cover",
-                width: 400,
-                height: 300,
             }}>
 
-                <img src={el.Logo} width={130} alt="" />
+                <div class="m-auto m-5">
+                    <img src={el.Logo} width={130} alt="" />
+                </div>
+                
             </div>
         </div >
     )
